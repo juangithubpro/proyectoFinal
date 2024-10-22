@@ -5,7 +5,7 @@ def contexto_base(request):
 
     contexto = dict()
 
-    # Acerca de
+    # Acerca de.
     if models.Acerca.objects.count():
         contexto['acerca'] = models.Acerca.objects.latest('creacion')
     else:
