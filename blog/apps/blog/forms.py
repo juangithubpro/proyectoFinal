@@ -43,7 +43,7 @@ class RegisterUserForm(UserCreationForm):
         'placeholder': 'Repetir Contraseña',
     }))
 
-    # Comprobar correo electrónico único
+    # Comprobar correo electrónico único.
     # El correo electrónico existe y la cuenta está activa -> correo_ya_registrado
     # El correo electrónico existe y la cuenta no está activa -> eliminar la cuenta anterior y registrar una nueva
     def clean_email(self):
