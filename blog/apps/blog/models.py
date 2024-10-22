@@ -4,7 +4,7 @@ from ckeditor.fields import RichTextField
 from django.utils.text import slugify
 
 ################################
-##### Modelo Perfil Usuario ####
+##### Modelo Perfil Usuario. ####
 ################################
 
 
