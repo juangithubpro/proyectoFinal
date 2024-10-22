@@ -7,7 +7,7 @@ admin.site.site_title = 'Blog'
 
 
 ########################
-#### Perfil Usuario ####
+#### Perfil Usuario. ####
 ########################
 
 class PerfilAdmin(admin.ModelAdmin):
