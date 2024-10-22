@@ -106,7 +106,7 @@ class ArticulosByArchivoView(YearArchiveView):
         return context
 
 
-################# CRUD ####################
+################# CRUD. ####################
 
 def usuario_es_colaborador(user):
     return user.groups.filter(name='colaborador').exists()
